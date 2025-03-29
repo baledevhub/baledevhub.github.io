@@ -1,37 +1,37 @@
 +++
-title = "Math Typesetting"
-date = "2022-10-20"
-description = "A brief guide to setup KaTeX"
+title = "حروف چینی ریاضی"
+date = "1404-01-09"
+description = "راهنمای مختصر برای راه‌اندازی KaTeX"
 extra.math = true
 +++
 
-Kita theme support $\LaTeX$ mathematical formulas using [KaTeX](https://katex.org/).
+قالب کیتا از فرمول‌های ریاضی $\LaTeX$ با استفاده از [KaTeX](https://katex.org/) پشتیبانی می‌کند.
 
 <!--more-->
 
-- To enable KaTeX globally, set the parameter `extra.math` to `true` in a project's configuration.
-- To enable KaTeX on a per page basis, include the parameter `extra.math = true` in the frontmatter of content files.
+- برای فعال کردن KaTeX به صورت سراسری، پارامتر `extra.math` را در پیکربندی پروژه روی `true` تنظیم کنید.
+- برای فعال کردن KaTeX در هر صفحه به صورت جداگانه، پارامتر `extra.math = true` را در frontmatter فایل‌های محتوا قرار دهید.
 
-**Note:** Use the online reference of [Supported TeX Functions](https://katex.org/docs/supported.html).
+**نکته:** از مرجع آنلاین [توابع TeX پشتیبانی شده](https://katex.org/docs/supported.html) استفاده کنید.
 
-### Examples
+### مثال‌ها
 
-#### Inline math
-
-```markdown
-When $x = \pi$, Euler's formula may be rewritten as $e^{i \pi} + 1 = 0$.
-```
-
-When $x = \pi$, Euler's formula may be rewritten as $e^{i \pi} + 1 = 0$.
-
-#### Block math
+#### ریاضی درون خطی
 
 ```markdown
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
+وقتی $x = \pi$، فرمول اویلر را می‌توان به صورت $e^{i \pi} + 1 = 0$ بازنویسی کرد.
 ```
 
-$$
+وقتی $x = \pi$، فرمول اویلر را می‌توان به صورت $e^{i \pi} + 1 = 0$ بازنویسی کرد.
+
+#### ریاضی بلوکی
+
+```markdown
+$
  \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
+$
+```
+
+$
+ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$

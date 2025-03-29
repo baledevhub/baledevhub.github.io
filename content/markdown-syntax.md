@@ -1,147 +1,147 @@
 +++
-title = "Markdown Syntax Guide"
-date = "2022-10-20"
-description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+title = "راهنمای نحو مارک‌داون"
+date = "1404-01-09"
+description = "مقاله نمونه نمایش نحو پایه مارک‌داون و قالب‌بندی برای عناصر HTML."
 [taxonomies]
-tags = ["markdown", "css", "html"]
+tags = ["مارک‌داون", "css", "html"]
 [extra]
 cover.image = "images/markdown-syntax.png"
-cover.alt = "A Markdown logo"
+cover.alt = "لوگوی مارک‌داون"
 +++
 
-This article offers a sample of basic Markdown syntax that can be used in Zola content files, also it shows whether basic HTML elements are decorated with CSS in a Kita theme.
+این مقاله نمونه‌ای از نحو پایه مارک‌داون را ارائه می‌دهد که می‌تواند در فایل‌های محتوای Zola استفاده شود، همچنین نشان می‌دهد که آیا عناصر پایه HTML با CSS در تم Kita تزئین شده‌اند.
 
 <!--more-->
 
-## Headings
+## سرتیترها
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+عناصر HTML زیر `<h1>`—`<h6>` شش سطح از سرتیترهای بخش را نمایش می‌دهند. `<h1>` بالاترین سطح بخش است در حالی که `<h6>` پایین‌ترین است.
 
-# H1
+# سرتیتر ۱
 
-## H2
+## سرتیتر ۲
 
-### H3
+### سرتیتر ۳
 
-#### H4
+#### سرتیتر ۴
 
-##### H5
+##### سرتیتر ۵
 
-###### H6
+###### سرتیتر ۶
 
-## Paragraph
+## پاراگراف
 
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
+لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
 
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
+کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
 
-## Blockquotes
+## نقل قول‌ها
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+عنصر نقل قول محتوایی را نمایش می‌دهد که از منبع دیگری نقل شده است، به صورت اختیاری با یک استناد که باید درون عنصر `footer` یا `cite` باشد، و به صورت اختیاری با تغییرات درون خطی مانند یادداشت‌ها و اختصارات.
 
-#### Blockquote without attribution
+#### نقل قول بدون انتساب
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use _Markdown syntax_ within a blockquote.
+> در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد.
+> **توجه** کنید که می‌توانید از _نحو مارک‌داون_ درون نقل قول استفاده کنید.
 
-#### Blockquote with attribution
+#### نقل قول با انتساب
 
-> Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
+> با حافظه اشتراکی ارتباط برقرار نکنید، با ارتباط حافظه را به اشتراک بگذارید.<br>
+> — <cite>راب پایک[^1]</cite>
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+[^1]: نقل قول بالا از سخنرانی راب پایک در [گوفرفست](https://www.youtube.com/watch?v=PAAkCSZUG1c)، ۱۸ نوامبر ۲۰۱۵ گرفته شده است.
 
-## Links
+## پیوندها
 
-To create a link, enclose the link text in brackets and then follow it immediately with the URL in parentheses.
+برای ایجاد پیوند، متن پیوند را در کروشه قرار دهید و بلافاصله پس از آن URL را در پرانتز قرار دهید.
 
-[GitHub](https://github.com)
+[گیت‌هاب](https://github.com)
 
-To quickly turn a URL or email address into a link, enclose it in angle brackets.
+برای تبدیل سریع یک URL یا آدرس ایمیل به پیوند، آن را در علامت‌های کمتر و بیشتر قرار دهید.
 
 <https://github.com>
 
-## Images
+## تصاویر
 
-![Markdown Guide](/images/markdown-syntax.png)
+![راهنمای مارک‌داون](/images/markdown-syntax.png)
 
-## Tables
+## جدول‌ها
 
-Tables aren't part of the core Markdown spec, but Zola supports supports them out-of-the-box.
+جدول‌ها بخشی از مشخصات اصلی مارک‌داون نیستند، اما Zola از آنها به صورت پیش‌فرض پشتیبانی می‌کند.
 
-| Name  | Age |
-| ----- | --- |
-| Bob   | 27  |
-| Alice | 23  |
+| نام    | سن |
+| ------ | -- |
+| بابک   | ۲۷ |
+| آزاده  | ۲۳ |
 
-#### Inline Markdown within tables
+#### مارک‌داون درون خطی در جدول‌ها
 
-| Italics   | Bold     | Code   |
-| --------- | -------- | ------ |
-| _italics_ | **bold** | `code` |
+| ایتالیک     | ضخیم         | کد      |
+| ----------- | ------------ | ------- |
+| _ایتالیک_   | **ضخیم**    | `کد`    |
 
-## Code Blocks
+## بلوک‌های کد
 
-#### Code block with backticks
+#### بلوک کد با علامت بک‌تیک
 
 ```html
 <!doctype html>
-<html lang="en">
+<html lang="fa">
   <head>
     <meta charset="utf-8" />
-    <title>Example HTML5 Document</title>
+    <title>سند نمونه HTML5</title>
   </head>
   <body>
-    <p>Test</p>
+    <p>تست</p>
   </body>
 </html>
 ```
 
-#### Code block indented with four spaces
+#### بلوک کد با تورفتگی چهار فاصله
 
     <!doctype html>
-    <html lang="en">
+    <html lang="fa">
     <head>
       <meta charset="utf-8">
-      <title>Example HTML5 Document</title>
+      <title>سند نمونه HTML5</title>
     </head>
     <body>
-      <p>Test</p>
+      <p>تست</p>
     </body>
     </html>
 
-## List Types
+## انواع فهرست
 
-#### Ordered List
+#### فهرست مرتب
 
-1. First item
-2. Second item
-3. Third item
+۱. مورد اول
+۲. مورد دوم
+۳. مورد سوم
 
-#### Unordered List
+#### فهرست نامرتب
 
-- List item
-- Another item
-- And another item
+- مورد فهرست
+- مورد دیگر
+- و مورد دیگر
 
-#### Nested list
+#### فهرست تو در تو
 
-- Fruit
-  - Apple
-  - Orange
-  - Banana
-- Dairy
-  - Milk
-  - Cheese
+- میوه‌ها
+  - سیب
+  - پرتقال
+  - موز
+- لبنیات
+  - شیر
+  - پنیر
 
-## Other Elements — abbr, sub, sup, kbd, mark
+## سایر عناصر — مخفف، زیرنویس، بالانویس، کلید، نشان
 
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+<abbr title="قالب تبادل گرافیکی">GIF</abbr> یک قالب تصویر بیت‌مپ است.
 
 H<sub>2</sub>O
 
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
+کلید <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> را برای پایان جلسه فشار دهید.
 
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+بیشتر <mark>سمندرها</mark> شب‌فعال هستند و حشرات، کرم‌ها و سایر موجودات کوچک را شکار می‌کنند.

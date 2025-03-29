@@ -1,6 +1,13 @@
 +++
-title = "About"
+title = "درباره"
 path = "about"
 +++
 
-## Hello World
+## پروژه‌ی کیتا فارسی (Kita farsi)
+کیتا فارسی یک قالب متن باز، بر بستر [کیتا](https://github.com/st1020/kita) برای بلاگ های [زولا](https://getzola.org/)ست
+
+### لینک های مرتبط
+- [کیتا](https://github.com/st1020/kita)
+- [زولا](https://getzola.org/)
+- [کیتا فارسی](https://github.com/daradege/kita-farsi)
+- [توسعه دهنده](https://github.com/daradege)

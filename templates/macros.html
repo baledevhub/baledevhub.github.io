@@ -4,6 +4,10 @@
 {%- if meta -%}
 {{- get_url(path=path) -}}
 {%- else -%}
+{%- if icon == "www" -%}
+{{- "https://raw.githubusercontent.com/Daradege/Daradege.github.io/refs/heads/main/assets/www.svg" -}}
+{%- else -%}
 {{- "https://cdn.jsdelivr.net/npm/simple-icons/icons/" ~ icon ~ ".svg" -}}
+{%- endif -%}
 {%- endif -%}
 {%- endmacro get_social_icon -%}

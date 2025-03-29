@@ -1,6 +1,6 @@
 +++
 title = "Theme Config Guide"
-date = "2022-10-20"
+date = "1404-01-09"
 description = "The config fo Kita theme."
 [taxonomies]
 tags = ["theme", "markdown"]
@@ -68,7 +68,7 @@ name = "Archive"
 url = "$BASE_URL/archive"
 
 [[extra.menu]]
-name = "Tags"
+name = "تگ ها"
 url = "$BASE_URL/tags"
 
 [[extra.menu]]
