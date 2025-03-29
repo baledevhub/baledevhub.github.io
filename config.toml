@@ -3,7 +3,7 @@ base_url = "https://kita-zola.pages.dev"
 
 # The site title and description; used in feeds by default.
 title = "کیتا فارسی"
-description = "Kita is a clean, elegant and simple blog theme for Zola."
+description = "کیتا فارسی یک قالب زیبا، ساده و روان برای زولا است."
 
 # The default site author.
 author = "علی صفامنش"
@@ -115,7 +115,7 @@ direction = "rtl"
 
 # The page footer options.
 [extra.footer]
-since = 2020
+since = 2025
 license = "CC BY-SA 4.0"
 license_url = "https://creativecommons.org/licenses/by-sa/4.0/deed"
 

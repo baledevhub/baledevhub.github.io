@@ -77,7 +77,7 @@ url = "$BASE_URL/about"
 
 # The page footer options.
 [extra.footer]
-since = 2020
+since = 2025
 license = "CC BY-SA 4.0"
 license_url = "https://creativecommons.org/licenses/by-sa/4.0/deed"
 
