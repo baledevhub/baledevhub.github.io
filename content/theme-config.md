@@ -48,11 +48,11 @@ avatar_invert = true
 # The social icons below the profile on the home page.
 [[extra.profile.social]]
 name = "github"
-url = "https://github.com/st1020/kita"
+url = "https://github.com/daradege/kita-farsi"
 
 [[extra.profile.social]]
 name = "twitter"
-url = "https://github.com/st1020/kita"
+url = "https://github.com/daradege/kita-farsi"
 
 [[extra.profile.social]]
 name = "rss"
